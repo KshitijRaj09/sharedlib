@@ -11,9 +11,6 @@
     "build": "webpack",
     "test": "echo \"Error: no test specified\""
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kshitijraj09"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/KshitijRaj09/sharedlib.git"
