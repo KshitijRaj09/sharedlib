@@ -19,7 +19,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: yarn
       - run: yarn test
-      - name: build and publish to Github packages
       - run: yarn build
       - run: yarn publish
         env:
