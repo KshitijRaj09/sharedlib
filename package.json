@@ -2,10 +2,12 @@
   "name": "@kshitijraj09/sharedlib_mf",
   "version": "1.0.0",
   "description": "microfrontend, webpack, react, social-media, auth, protected-root",
-  "repository": "",
   "author": "Kshitij Raj",
   "license": "ISC",
   "private": false,
+  "main": "./src/index.js",
+  "types": "./dist/bootstrap.d.ts",
+  "files": ["dist"],
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",

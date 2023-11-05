@@ -3,5 +3,6 @@ build
 dist
 .env
 design.webp
+.npmrc
 
 *.logs

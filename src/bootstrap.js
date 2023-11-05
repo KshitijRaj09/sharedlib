@@ -3,6 +3,8 @@ import React from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import CustomTheme from "./themeProvider/Theme";
 import SharedButton from "./components/SharedButton";
+import { WindowEvents } from "./eventservice/eventservice";
+export { WindowEvents, CustomTheme };
 
 const Main = () => {
    return (<>
