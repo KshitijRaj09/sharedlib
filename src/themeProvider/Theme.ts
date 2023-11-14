@@ -1,8 +1,7 @@
 import React from 'react';
 import { createTheme } from "@mui/material/styles";
-import { customThemeType } from './types';
 
-const theme: customThemeType = createTheme({
+const theme= createTheme({
    status: {
       danger: "",
    },

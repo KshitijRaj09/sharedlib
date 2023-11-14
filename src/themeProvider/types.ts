@@ -20,4 +20,4 @@ export interface ThemeOptions {
    createPostBackgroundColor: string,
 }
 
-export type customThemeType = Theme;
+export type customThemeType = Theme & BreakpointOverrides & ThemeOptions;
