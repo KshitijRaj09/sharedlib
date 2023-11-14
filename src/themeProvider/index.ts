@@ -1,4 +1,4 @@
-import { customThemeType } from "@mui/material";
+import { customThemeType } from "./types";
 import customTheme from "./Theme";
 
 export { customTheme, customThemeType };
