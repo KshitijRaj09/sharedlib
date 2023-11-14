@@ -13,12 +13,11 @@ declare module '@mui/material/styles' {
     }
     // allow configuration using `createTheme`
     interface ThemeOptions {
-        status?: {
-            danger?: string;
+        status: {
+            danger: string;
         };
         applicationBackgroundColor: string,
         createPostBackgroundColor: string,
     }
-    type customThemeType = BreakpointOverrides & ThemeOptions & Theme;
+    type customThemeType = Theme;
 }
-
