@@ -4,7 +4,8 @@ import { ThemeProvider } from "@mui/material/styles";
 import CustomTheme from "./themeProvider/Theme";
 import SharedButton from "./components/SharedButton";
 import { useMediaQuery, useTheme } from "@mui/material";
-import { WindowEventService, UserInfoType, WindowEvents } from './eventservice/index';
+import { WindowEventService, WindowEvents } from './eventservice/index';
+import type { UserInfoType } from './eventservice/index';
 export { CustomTheme, SharedButton, WindowEventService, UserInfoType, WindowEvents };
 
 const Main = () => {
@@ -12,7 +13,7 @@ const Main = () => {
    const isMobileScreen = useMediaQuery(theme.breakpoints.down('tablet'));
    console.log(isMobileScreen);
    return (<>
-     <SharedButton /> 
+     <SharedButton text='test'/> 
    </>)
 }
 

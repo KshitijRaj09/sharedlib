@@ -1,6 +1,6 @@
 {
   "name": "@kshitijraj09/sharedlib_mf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "microfrontend, webpack, react, social-media, auth, protected-root",
   "author": "Kshitij Raj",
   "license": "ISC",
@@ -8,7 +8,9 @@
   "main": "build/sharedlib_mf.bundle.js",
   "types": "dist/bootstrap.d.ts",
   "module": "build/sharedlib_mf.bundle.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
@@ -39,6 +41,7 @@
     "@babel/preset-env": "^7.21.4",
     "@babel/preset-react": "^7.18.6",
     "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.16",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "dotenv-webpack": "^8.0.1",
