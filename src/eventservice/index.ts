@@ -1,4 +1,3 @@
 import WindowEventService from "./eventservice";
-import type { UserInfoType, WindowEvents } from "./types";
-export type { UserInfoType };
-export { WindowEventService, WindowEvents };
+import { UserInfoType, WindowEvents } from "./types";
+export { WindowEventService, WindowEvents, UserInfoType };
