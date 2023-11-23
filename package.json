@@ -5,10 +5,12 @@
   "author": "Kshitij Raj",
   "license": "ISC",
   "private": false,
-  "main": "build/sharedlib_mf.bundle.js",
-  "types": "dist/bootstrap.d.ts",
+  "main": "src/index.ts",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "build",
+    "src"
   ],
   "scripts": {
     "start": "webpack-dev-server",

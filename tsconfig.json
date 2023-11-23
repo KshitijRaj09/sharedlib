@@ -12,6 +12,7 @@
       "declarationDir": "dist"
        
    },
+   "files": ["src/index.ts"],
    "include": ["src/**/*"],
-   "exclude": ["src/**/*.test"]
+   "exclude": ["node_modules, src/**/*.test"]
 }

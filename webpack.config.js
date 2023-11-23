@@ -5,13 +5,13 @@ const deps = require('./package.json').dependencies;
 
 module.exports = {
   entry: {
-    sharedlib_mf: "./src/index.js",
+    sharedlib_mf: "./src/start.js",
   },
   mode: "development",
   devtool: false,
   output: {
     path: path.resolve(__dirname, "./build"),
-    filename: "[name].bundle.js",
+    filename: "sharedlib-bundle.js",
     clean: true,
   },
   target: "web",
