@@ -6,7 +6,7 @@
   "license": "ISC",
   "private": false,
   "main": "build/sharedlib_mf-bundle.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/boot.d.ts",
   "files": [
     "dist",
     "build"
