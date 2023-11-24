@@ -48,7 +48,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
       # run test cases
-      - name: Install dependencies
+      - name: Run unit test cases
         run: yarn test
 
       # build the react app
