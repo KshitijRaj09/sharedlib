@@ -1,9 +1,15 @@
 export type UserInfoType = {
-   username: string;
-   name: string;
    avatar: string;
-   userid: string;
- }
+   createdAt: string;
+   description: string;
+   email: string;
+   followers : string[]
+   followings: string[]
+   isAdmin :boolean
+   name: string;
+   username: string;
+   _id: string;
+}
 
 export enum WindowEvents {
    currentUser = 'currentUser',
