@@ -109,6 +109,7 @@ __webpack_require__.r(__webpack_exports__);
 var WindowEvents;
 (function (WindowEvents) {
     WindowEvents["currentUser"] = "currentUser";
+    WindowEvents["messageNotification"] = "messageNotification";
 })(WindowEvents || (WindowEvents = {}));
 
 
