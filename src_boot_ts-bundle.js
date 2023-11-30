@@ -11,8 +11,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   CustomTheme: () => (/* reexport safe */ _themeProvider_Theme__WEBPACK_IMPORTED_MODULE_0__["default"]),
 /* harmony export */   SharedButton: () => (/* reexport safe */ _components_SharedButton__WEBPACK_IMPORTED_MODULE_1__["default"]),
-/* harmony export */   WindowEventService: () => (/* reexport safe */ _eventservice__WEBPACK_IMPORTED_MODULE_2__.WindowEventService),
-/* harmony export */   WindowEvents: () => (/* reexport safe */ _eventservice__WEBPACK_IMPORTED_MODULE_2__.WindowEvents)
+/* harmony export */   WindowEventService: () => (/* reexport safe */ _eventservice__WEBPACK_IMPORTED_MODULE_2__.WindowEventService)
 /* harmony export */ });
 /* harmony import */ var _themeProvider_Theme__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./themeProvider/Theme */ "./src/themeProvider/Theme.ts");
 /* harmony import */ var _components_SharedButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/SharedButton */ "./src/components/SharedButton.tsx");
@@ -84,37 +83,11 @@ var WindowEventService = {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   WindowEventService: () => (/* reexport safe */ _eventservice__WEBPACK_IMPORTED_MODULE_0__["default"]),
-/* harmony export */   WindowEvents: () => (/* reexport safe */ _types__WEBPACK_IMPORTED_MODULE_1__.WindowEvents)
+/* harmony export */   WindowEventService: () => (/* reexport safe */ _eventservice__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
 /* harmony import */ var _eventservice__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./eventservice */ "./src/eventservice/eventservice.ts");
-/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./types */ "./src/eventservice/types.ts");
 
 
-
-
-
-/***/ }),
-
-/***/ "./src/eventservice/types.ts":
-/*!***********************************!*\
-  !*** ./src/eventservice/types.ts ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   WindowEvents: () => (/* binding */ WindowEvents)
-/* harmony export */ });
-var WindowEvents;
-(function (WindowEvents) {
-    WindowEvents["currentUser"] = "currentUser";
-    WindowEvents["messageNotification"] = "messageNotification";
-    WindowEvents["updateNotification"] = "updateNotification";
-    WindowEvents["updatePostNotification"] = "updatePostNotification";
-    WindowEvents["postNotification"] = "postNotification";
-    WindowEvents["likeNotification"] = "likeNotification";
-})(WindowEvents || (WindowEvents = {}));
 
 
 /***/ }),
