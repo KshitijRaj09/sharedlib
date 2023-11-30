@@ -21,11 +21,6 @@ export type NotificationType = {
    type: 'message' | 'post' | 'like'
 }
 
-export enum WindowEvents {
-   currentUser = 'currentUser',
-   messageNotification = 'messageNotification',
-   updateNotification = 'updateNotification',
-   updatePostNotification = 'updatePostNotification',
-   postNotification = 'postNotification',
-   likeNotification = 'likeNotification'
-}
+export type WindowEvents = "currentUser" | "messageNotification" |
+   "updateNotification" | "updatePostNotification" |
+   "postNotification" | "likeNotification";
