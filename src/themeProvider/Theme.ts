@@ -7,6 +7,7 @@ const theme= createTheme({
    },
    applicationBackgroundColor: "#ECF2FF",
    createPostBackgroundColor: "#E3DFFD",
+   headerColor: 'cadetblue',
 
    breakpoints: {
       values: {

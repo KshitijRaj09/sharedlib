@@ -19,6 +19,7 @@ declare module '@mui/material/styles' {
       };
       applicationBackgroundColor: string,
       createPostBackgroundColor: string,
+      headerColor: string
    
    }
     export type themeType = Theme & ThemeOptions & BreakpointOverrides;

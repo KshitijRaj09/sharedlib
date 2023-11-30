@@ -13,15 +13,19 @@ export type UserInfoType = {
 
 export type NotificationType = {
    content: string;
-   createdAt: string;
+   createdAt?: string;
    isRead: boolean;
    receiverId: string;
    senderId: string;
-   _id: string;
-   type: string; //message | post | like
+   _id?: string;
+   type: 'message' | 'post' | 'like'
 }
 
 export enum WindowEvents {
    currentUser = 'currentUser',
-   messageNotification = 'messageNotification'
+   messageNotification = 'messageNotification',
+   updateNotification = 'updateNotification',
+   updatePostNotification = 'updatePostNotification',
+   postNotification = 'postNotification',
+   likeNotification = 'likeNotification'
 }
