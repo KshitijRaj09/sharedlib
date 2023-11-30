@@ -110,6 +110,10 @@ var WindowEvents;
 (function (WindowEvents) {
     WindowEvents["currentUser"] = "currentUser";
     WindowEvents["messageNotification"] = "messageNotification";
+    WindowEvents["updateNotification"] = "updateNotification";
+    WindowEvents["updatePostNotification"] = "updatePostNotification";
+    WindowEvents["postNotification"] = "postNotification";
+    WindowEvents["likeNotification"] = "likeNotification";
 })(WindowEvents || (WindowEvents = {}));
 
 
@@ -133,6 +137,7 @@ var theme = (0,_mui_material_styles__WEBPACK_IMPORTED_MODULE_0__["default"])({
     },
     applicationBackgroundColor: "#ECF2FF",
     createPostBackgroundColor: "#E3DFFD",
+    headerColor: 'cadetblue',
     breakpoints: {
         values: {
             mobile: 0,
